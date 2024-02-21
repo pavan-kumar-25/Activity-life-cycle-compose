@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.Lifecyclecomp" parent="android:Theme.Material.Light.NoActionBar" />
+    <style name="SplashTheme" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenAnimatedIcon">@drawable/pic</item>
+        <item name="windowSplashScreenBackground">#EBF6EC</item>
+        <item name="postSplashScreenTheme">@style/Theme.Lifecyclecomp</item>
+    </style>
+</resources>
